@@ -7,13 +7,14 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-md bg-warning">
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark">
         <div class="container-sm">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Plyšopravna</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,59 +22,77 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Domů</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Služby</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Ceník</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link disabled" aria-disabled="true">Kontakty</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container my-3">
+    <section class="banner py-3 py-md-5">
+        <div class="container">
 
-        <div class="row">
-            <div class="col-md-6 col-xl-4">
-                <img src="https://picsum.photos/id/237/600/300" alt="" class="img-fluid">
+            <h1 class="display-2 my-3 my-md-4 text-center text-sm-start text-white">Plyšopravna se postará o vaše milé kamarády</h1>
+            <p class="lead mb-md-4 text-center text-sm-start text-white">Naše new age eco friendly tolerantní plyšopravna zajistí tu nejlepší péči pro všechny vaše
+                chlupaté, hunaté, pletené i slámové kamarády.</p>
+            <div class="d-grid gap-2 d-md-block">
+                <a href="#next" class="btn btn-lg btn-primary me-md-2">Objednat se!</a>
+                <a href="#next" class="btn btn-lg btn-light">O naší opravně!</a>
             </div>
-            <div class="col-md-6 col-xl-4">
-                <h1 class="h1">tohle je velky nadpis</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo recusandae ex fuga repellat sapiente
-                    cumque nostrum dolor, quo commodi rerum autem dolorum ut nisi? Nemo nulla doloremque obcaecati atque
-                    libero?</p>
-            </div>
-            <div class="col-md-12 col-xl-4 bg-warning">
-                <h2 class="py-5 text-center text-white">ahojda</h2>
+
+        </div>
+    </section>
+    <section class="services py-3 py-md-5">
+        <div class="container">
+        <h2 class="h1 text-center">Naše péče</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                          Standard
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Běžná údržba</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                          Premium
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Nadstandartní údržba</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                          Luxury
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Luxusní údržba</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
             </div>
         </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
